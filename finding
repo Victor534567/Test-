@@ -1,0 +1,27 @@
+# VAPT Security Findings
+
+ 1. Port Scanning
+- Tool: Nmap
+- Target: 127.0.0.1
+- Port: 3000
+- Observation: Port 3000 was found open.
+
+ 2. Login Request Analysis
+- Endpoint: /rest/user/login
+- HTTP Method: POST
+- Status Code: 200 OK
+- Observed the login request and server response.
+- Analyzed the authentication response data.
+
+ 3. HTTP Request and Response Analysis
+- Tool: Firefox Developer Tools
+- Observed GET and POST requests.
+- Studied request headers, response headers and status codes.
+
+ 4. Cookie Analysis
+- Examined cookies used by the application.
+- Observed cookie attributes:
+  - HttpOnly
+  - Secure
+  - SameSite
+- Studied cookie behavior in the browser.
