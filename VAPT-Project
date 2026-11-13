@@ -1,0 +1,26 @@
+
+ OWASP Juice Shop - VAPT Project
+
+ Objective
+To perform basic Vulnerability Assessment and Penetration Testing on a locally hosted vulnerable web application.
+
+ 1. Environment
+- Kali Linux
+- Docker
+- OWASP Juice Shop
+- Nmap
+
+2.Testing Performed
+- Port Scanning
+- HTTP Request and Response Analysis
+- Cookie Analysis
+- JWT Basics
+- IDOR Concept Testing
+
+3.Tools Used
+- Nmap
+- Firefox Developer Tools
+- Docker
+
+ Project Status
+learning & practicing
